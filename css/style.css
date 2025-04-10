@@ -1,0 +1,54 @@
+
+/* root para criar e selecionar cores de formas melhores para a pagina inteira */
+:root{
+    --cor-primaria: #0a243e;
+    --cor-texto: #333;
+    --cor-clara: #f9f9f9;
+
+}
+
+/* sempre iniciar o css por essa parte, que é ajustar a pagina para todos os tipos de navegadores */
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--cor-primaria) ;
+}
+
+.cabecalho{
+    background-color: var(--cor-primaria);
+    color: var(--cor-clara);
+    padding: 1rem 0;
+}
+
+ .logo { 
+    width: 150px;
+}
+
+.container{
+
+
+
+}
+.cabecalho .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.menu a{
+    color: var(--cor-clara);
+    text-decoration: none;
+}
